@@ -9,12 +9,11 @@
 </head>
 <body>
     <header>
-        <h1>Checkout Complete</h1>
+        <h1>Checkout</h1>
     </header>
     <main>
         <section class="empty-cart">
             <p>Your cart has been cleared.</p>
-            <p>This demo does not save orders or process payments.</p>
             <a href="${pageContext.request.contextPath}/product">Continue Shopping</a>
         </section>
     </main>
