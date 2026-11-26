@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout Complete</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style/main.css">
 </head>
 <body>
     <header>
-        <h1>Checkout Complete</h1>
+        <h1>Checkout</h1>
     </header>
     <main>
         <section class="empty-cart">
             <p>Your cart has been cleared.</p>
-            <p>This demo does not save orders or process payments.</p>
             <a href="${pageContext.request.contextPath}/product">Continue Shopping</a>
         </section>
     </main>

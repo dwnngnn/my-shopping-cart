@@ -46,7 +46,7 @@
 
                                 <tr>
                                     <td>
-                                        <form action="cart" method="post" style="display:inline-flex; gap:5px;">
+                                        <form action="${pageContext.request.contextPath}/cart" method="post" style="display:inline-flex; gap:5px;">
 
                                             <input type="hidden" name="action" value="update">
                                             <input type="hidden" name="description" value="${item.product.description}">
@@ -74,12 +74,12 @@
                                     </td>
 
                                     <td>
-                                        <form action="cart" method="post">
-                                            <input type="hidden" name="action" value="remove">
-                                            <input type="hidden" name="description" value="${item.product.description}">
-                                            <input type="hidden" name="quantity" value="1">
-                                            <input type="submit" value="Remove Item" class="btn-remove">
-                                        </form>
+                                        <c:url var="removeUrl" value="/cart">
+                                            <c:param name="action" value="remove" />
+                                            <c:param name="description" value="${item.product.description}" />
+                                            <c:param name="quantity" value="1" />
+                                        </c:url>
+                                        <a href="${removeUrl}" class="btn-remove">Remove</a>
                                     </td>
                                 </tr>
 

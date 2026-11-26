@@ -1,6 +1,11 @@
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\controller\CartServlet.java
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\controller\CheckoutServlet.java
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\controller\ProductServlet.java
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\model\Cart.java
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\model\CartItem.java
-C:\TaiLieuHocTap\Web\shopping_cart\shopping_cart\src\main\java\model\Product.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\CartServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\CheckoutServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\CookiesServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\DownloadServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\DownloadsServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\ProductServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\controller\RegisterServlet.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\model\Cart.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\model\CartItem.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\model\Product.java
+C:\TaiLieu\Web\shopping_cart\shopping_cart\src\main\java\model\ProductIO.java
