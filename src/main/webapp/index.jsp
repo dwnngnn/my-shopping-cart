@@ -13,7 +13,7 @@
     <header>
         <h1><a class="site-name" href="${pageContext.request.contextPath}/product">Music</a></h1>
         <c:if test="${not empty cookie.userEmail}">
-            <p>User Email: <c:out value="${cookie.userEmail.value}" /></p>
+            <p>User email: <c:out value="${cookie.userEmail.value}" /></p>
         </c:if>
         <nav class="page-links">
             <a href="${pageContext.request.contextPath}/register">Register</a>
