@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Downloads</h1>
+        <h1><a class="site-name" href="${pageContext.request.contextPath}/product">Music</a></h1>
+        <h2 class="page-heading">Downloads</h2>
         <p>User email: <c:out value="${cookie.userEmail.value}" /></p>
     </header>
     <main>
@@ -50,5 +51,8 @@
             </nav>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Music. All rights reserved.</p>
+    </footer>
 </body>
 </html>

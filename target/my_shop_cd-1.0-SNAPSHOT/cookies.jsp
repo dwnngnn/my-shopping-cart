@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style/main.css">
 </head>
 <body>
-    <header><h1>All Cookies</h1></header>
+    <header>
+        <h1><a class="site-name" href="${pageContext.request.contextPath}/product">Music</a></h1>
+        <h2 class="page-heading">All Cookies</h2>
+    </header>
     <main>
         <section class="product-list">
             <table>
@@ -32,5 +35,8 @@
             </nav>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Music. All rights reserved.</p>
+    </footer>
 </body>
 </html>
