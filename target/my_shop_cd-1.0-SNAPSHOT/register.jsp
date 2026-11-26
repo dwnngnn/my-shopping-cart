@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Register</h1>
+        <h1><a class="site-name" href="${pageContext.request.contextPath}/product">Music</a></h1>
+        <h2 class="page-heading">Register</h2>
     </header>
     <main>
         <section class="register-form">
@@ -25,5 +26,8 @@
             </form>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Music. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Music</h1>
+        <h1><a class="site-name" href="${pageContext.request.contextPath}/product">Music</a></h1>
         <c:if test="${not empty cookie.userEmail}">
             <p>User Email: <c:out value="${cookie.userEmail.value}" /></p>
         </c:if>
@@ -59,7 +59,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 Music Store. All rights reserved.</p>
+        <p>&copy; 2026 Music. All rights reserved.</p>
     </footer>
 </body>
 </html>
