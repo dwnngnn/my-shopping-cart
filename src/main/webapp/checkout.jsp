@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout Complete</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style/main.css">
 </head>
 <body>

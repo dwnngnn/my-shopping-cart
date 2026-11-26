@@ -15,25 +15,30 @@ public class CartServlet extends HttpServlet{
     // Hiển thị giỏ hàng
     @Override 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-        Cart cart = (Cart) session.getAttribute("cart");
-        if (cart == null) {
-            cart = new Cart();
-            session.setAttribute("cart", cart);
-        }
-        for (CartItem item : cart.getItems()) {
-            Product product = findProduct(item.getProduct().getDescription());
-            if (product != null) {
-                item.setProduct(product);
-            }
-        }
-        request.getRequestDispatcher("/cart.jsp").forward(request, response);
+        doPost(request, response);
     }
 
     // Thao tác của giỏ hàng
     @Override 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
+        if (action == null || action.isEmpty()) {
+            HttpSession session = request.getSession();
+            Cart cart = (Cart) session.getAttribute("cart");
+            if (cart == null) {
+                cart = new Cart();
+                session.setAttribute("cart", cart);
+            }
+            for (CartItem item : cart.getItems()) {
+                Product product = findProduct(item.getProduct().getDescription());
+                if (product != null) {
+                    item.setProduct(product);
+                }
+            }
+            request.getRequestDispatcher("/cart.jsp").forward(request, response);
+            return;
+        }
         if ("shop".equals(action)) {
             response.sendRedirect(request.getContextPath() + "/product");
             return;

@@ -6,7 +6,7 @@
          version="4.0">
 
     <welcome-file-list>
-        <welcome-file>cart</welcome-file>
+        <welcome-file>product</welcome-file>
     </welcome-file-list>
 
 </web-app>

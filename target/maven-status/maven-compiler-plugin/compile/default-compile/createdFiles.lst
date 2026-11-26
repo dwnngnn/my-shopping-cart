@@ -1,6 +1,11 @@
 model\CartItem.class
+model\ProductIO.class
 controller\CheckoutServlet.class
 controller\CartServlet.class
 controller\ProductServlet.class
 model\Cart.class
 model\Product.class
+controller\CookiesServlet.class
+controller\DownloadsServlet.class
+controller\RegisterServlet.class
+controller\DownloadServlet.class
